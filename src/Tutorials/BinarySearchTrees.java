@@ -24,7 +24,7 @@ class BinarySearchTrees {               //"class Solution" online
 
   }
 //End Code
-public static Node insert(Node root,int data) {
+  public static Node insert(Node root,int data) {
         if(root==null) {
             return new Node(data);
         } else {
@@ -42,7 +42,7 @@ public static Node insert(Node root,int data) {
         }
     }
     
-	 public static void main(String args[]) {
+    public static void main(String args[]) {
         Scanner sc=new Scanner(System.in);
         int T=sc.nextInt();
         Node root=null;
